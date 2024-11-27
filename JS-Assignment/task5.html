@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Fibonacci Series Generator</h1>
+    
+    <label for="numSteps">Enter Number:</label>
+    <input type="number" id="num" placeholder="Enter a number">
+    <button onclick="generateFib()">print</button>
+
+    <div id="output"></div>
+
+    <script>
+        function generateFib() {
+        
+            const num = parseInt(document.getElementById('num').value);
+            
+            if (isNaN(num) || num <= 0) {
+                alert("Enter number greater than 0")
+                return
+            }
+
+            let fibSeries = []
+            let a = 0, b = 1;
+
+            for (let i = 0; i < num; i++) {
+                fibSeries.push(a);
+                let next = a + b;
+                a = b;
+                b = next;
+            }
+
+            
+            document.getElementById('output').innerText = "Fibonacci Series: " + fibSeries.join(', ')
+        }
+    </script>
+
+</body>
+</html>
