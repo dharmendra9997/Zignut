@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-text-menu {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+  }
+
+  .custom-header1-text{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66.36px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+  }
+
+  .custom-description-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2C2C2C;
+    ;
+  }
+
+  .custom-header2-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .custom-header3-text{
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 49.77px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+
+  .custom-header4-text{
+    font-family: Rubik;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.88px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+    .custom-name-text{
+      font-family: Rubik;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28.44px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+    }
+
+    .custom-footer-heading{
+      font-family: Rubik;
+font-size: 16px;
+font-weight: 700;
+line-height: 35.36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+
+    .custom-footer-text{
+      font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 30.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+  
+    .black-logo {
+      filter: grayscale(1) brightness(0.5);
+  }
